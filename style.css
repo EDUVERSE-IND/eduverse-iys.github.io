@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi:wght@400..700&display=swap");
+* {
+  font-family: "Poppins", serif;
+}
+::-webkit-scrollbar-track {
+  background: #2b2b2b;
+}
+.navbar {
+  /* From https://css.glass */
+  background: rgba(0, 158, 219, 1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 158, 219, 0.38);
+}
+#home {
+  padding: 7rem 1rem;
+  background-color: #2b2b2b;
+}
+.jumbotron {
+  padding: 7rem 1rem;
+  background-color: #2b2b2b;
+}
+#about {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #009edb;
+}
+#feature {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #009edb;
+}
+@media only screen and (min-width: 768px) {
+  .bintang {
+    max-width: 10%;
+  }
+}
+.bi {
+  color: #009edb;
+}
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+footer {
+  background-color: #2b2b2b;
+}
